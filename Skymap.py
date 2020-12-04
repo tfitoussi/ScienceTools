@@ -13,9 +13,9 @@ class Skymap(object):
             self.hammerproj = True
             self.ax = self.fig.add_subplot(111,projection='hammer')
             self.ax.tick_params(axis='both',which='major',labelsize=label_size)
-            labels = ["150$^\degree$","120$^\degree$","90$^\degree$","60$^\degree$","30$^\degree$",
-                        "0$^\degree$","-30$^\degree$","-60$^\degree$","-90$^\degree$","-120$^\degree$",
-                        "-150$^\degree$"]
+            labels = ["150$^\circ$","120$^\circ$","90$^\circ$","60$^\circ$","30$^\circ$",
+                        "0$^\circ$","-30$^\circ$","-60$^\circ$","-90$^\circ$","-120$^\circ$",
+                        "-150$^\circ$"]
             self.ax.set_xticklabels(labels)
 
         else:

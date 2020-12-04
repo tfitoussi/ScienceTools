@@ -164,8 +164,7 @@ class GraphDistribution(object):
 
         if not (save == ""):
             save = save.replace(".","_")
-            plt.savefig(save+".pdf",bbox_inches='tight')
-            plt.savefig(save+".png",bbox_inches='tight')
+            plt.savefig(save)
             if close_fig:
                 plt.close(self.fig)
         else:
